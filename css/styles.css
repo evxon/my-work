@@ -14,6 +14,7 @@ body {
 
 body {
     font-family: 'Noto Sans KR', sans-serif; /* Use Noto Sans KR */
+    font-size: 24px; 
     margin: 0;
     height: 100vh; 
     display: flex;
