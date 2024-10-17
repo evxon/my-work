@@ -23,13 +23,13 @@ body {
 
 .my-work {
     color: #197ABD; /* Color for "My Work" */
-    font-size: 15px; /* Set font size for "My Work" */
+    font-size: 13px; /* Set font size for "My Work" */
     text-decoration: none; /* Optional: remove underline */
 }
 
 .inspiration {
     color: #E0242B; /* Color for "Inspirations" */
-    font-size: 15px; /* Set font size for "Inspirations" */
+    font-size: 13px; /* Set font size for "Inspirations" */
     text-decoration: none; /* Optional: remove underline */
 }
 
