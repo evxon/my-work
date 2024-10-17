@@ -32,3 +32,8 @@ body {
     font-size: 15px; /* Set font size for "Inspirations" */
     text-decoration: none; /* Optional: remove underline */
 }
+
+a:hover {
+    color: #070707; /* Color for "hover" */
+    opacity: 0.8; /* Optional: reduce opacity on hover */
+}
