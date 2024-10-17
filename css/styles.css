@@ -3,24 +3,20 @@ body {
     height: 100vh; 
     display: flex;
     align-items: center; 
-    justify-content: flex-start;
+    justify-content: center; /* Center the container */
     background-color: #f9f9f9; 
     font-family: 'Noto Sans KR', sans-serif; /* Use Noto Sans KR */
-    font-weight: 600; /* SemiBold */
-    font-size: 24px; /* Change this value to adjust font size */
 }
 
 .container {
-    padding-left: 20px; 
-    flex: 1; 
+    text-align: center; /* Center the paragraph text */
+    font-size: 50px; /* Set font size for the paragraph */
 }
 
 .header {
     position: absolute; /* Position it relative to the body */
     top: 20px; /* Adjust distance from the top */
     right: 20px; /* Adjust distance from the right */
-    font-size: 15px; /* Set font size */
+    font-size: 15px; /* Set font size for "My Work" */
     font-family: 'Noto Sans KR', sans-serif; /* Use the same font */
 }
-
-
