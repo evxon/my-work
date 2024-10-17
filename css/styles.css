@@ -23,8 +23,7 @@ body {
 }
 
 .separator {
-    color: black; /* Color for the separator */
-    margin: 0 5px; /* Adjust space around the separator */
+    width: 10px; /* Adjust space around the separator */
 }
 
 .inspiration {
