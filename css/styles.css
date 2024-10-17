@@ -12,7 +12,7 @@ body {
     position: absolute; /* Position it relative to the body */
     top: 9px; /* Adjust distance from the top */
     right: 13px; /* Adjust distance from the right */
-    font-size: 15px; /* Set font size for both "My Work" and "Inspiration" */
+    font-size: 17px; /* Set font size for both "My Work" and "Inspiration" */
     display: flex; /* Use flexbox to align items in a row */
     align-items: center; /* Center items vertically */
 }
