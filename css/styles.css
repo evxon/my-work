@@ -12,13 +12,14 @@ body {
     position: absolute; /* Position it relative to the body */
     top: 9px; /* Adjust distance from the top */
     right: 13px; /* Adjust distance from the right */
-    font-size: 18px; /* Set font size for both "My Work" and "Inspiration" */
+    font-size: 15px; /* Set font size for all links */
     display: flex; /* Use flexbox to align items in a row */
     align-items: center; /* Center items vertically */
 }
 
 .my-work,
-.inspiration {
+.inspiration,
+.gallery {
     text-decoration: none; /* Remove underline */
 }
 
@@ -26,12 +27,16 @@ body {
     color: #197ABD; /* Color for "My Work" */
 }
 
-.separator {
-    width: 10px; /* Adjust space around the separator */
-}
-
 .inspiration {
     color: #E0242B; /* Color for "Inspiration" */
+}
+
+.gallery {
+    color: #137C45; /* Color for "Gallery" */
+}
+
+.separator {
+    width: 10px; /* Adjust space around the separator */
 }
 
 .container {
