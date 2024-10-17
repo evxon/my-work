@@ -11,3 +11,19 @@ body {
     padding-left: 20px; 
     flex: 1; 
 }
+
+body {
+    font-family: 'Noto Sans KR', sans-serif; /* Use Noto Sans KR */
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    background-color: #f9f9f9; 
+}
+
+.container {
+    padding-left: 20px; 
+    flex: 1; 
+}
+
