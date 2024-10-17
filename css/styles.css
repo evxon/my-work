@@ -5,26 +5,14 @@ body {
     align-items: center; 
     justify-content: flex-start;
     background-color: #f9f9f9; 
-}
-
-.container {
-    padding-left: 20px; 
-    flex: 1; 
-}
-
-body {
     font-family: 'Noto Sans KR', sans-serif; /* Use Noto Sans KR */
-    font-size: 50px; 
-    margin: 0;
-    height: 100vh; 
-    display: flex;
-    align-items: center; 
-    justify-content: flex-start;
-    background-color: #f9f9f9; 
+    font-weight: 600; /* SemiBold */
+    font-size: 40px; /* Change this value to adjust font size */
 }
 
 .container {
     padding-left: 20px; 
     flex: 1; 
 }
+
 
