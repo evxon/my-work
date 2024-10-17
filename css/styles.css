@@ -36,10 +36,11 @@ body {
 }
 
 .separator {
-    width: 10px; /* Adjust space around the separator */
+    margin: 0 10px; /* Adjust space around the separator */
 }
 
 .container {
     text-align: center; /* Center the paragraph text */
     font-size: 50px; /* Set font size for the paragraph */
 }
+
