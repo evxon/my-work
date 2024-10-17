@@ -15,14 +15,16 @@ body {
 
 .header {
     position: absolute; /* Position it relative to the body */
-    top: 9px; /* Adjust distance from the top */
-    right: 13px; /* Adjust distance from the right */
-    font-size: 8px; /* Set font size for "My Work" */
+    top: 20px; /* Adjust distance from the top */
+    right: 20px; /* Adjust distance from the right */
+    font-size: 15px; /* Set font size for "My Work" */
     font-family: 'Noto Sans KR', sans-serif; /* Use the same font */
+    display: flex; /* Use flexbox to align items */
+    gap: 10px; /* Add space between items */
 }
 
 a {
-    color: #197ABD; /* Change link color to #197ABD */
+    color: #197ABD; /* Color for "My Work" link */
     text-decoration: none; /* Optional: remove underline */
 }
 
@@ -30,3 +32,10 @@ a:hover {
     color: #197ABD; /* Keep the same color on hover */
 }
 
+.inspiration {
+    color: #E0242B; /* Color for "Inspirations" */
+}
+
+.inspiration:hover {
+    color: #E0242B; /* Keep the same color on hover */
+}
