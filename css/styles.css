@@ -20,3 +20,13 @@ body {
     font-size: 15px; /* Set font size for "My Work" */
     font-family: 'Noto Sans KR', sans-serif; /* Use the same font */
 }
+
+a {
+    color: #197ABD; /* Change link color to #197ABD */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+a:hover {
+    color: #197ABD; /* Keep the same color on hover */
+}
+
