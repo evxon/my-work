@@ -8,27 +8,31 @@ body {
     font-family: 'Noto Sans KR', sans-serif; /* Use Noto Sans KR */
 }
 
-.container {
-    text-align: center; /* Center the paragraph text */
-    font-size: 50px; /* Set font size for the paragraph */
-}
-
 .header {
     position: absolute; /* Position it relative to the body */
     top: 9px; /* Adjust distance from the top */
     right: 13px; /* Adjust distance from the right */
     font-size: 15px; /* Set font size for both "My Work" and "Inspiration" */
-    font-family: 'Noto Sans KR', sans-serif; /* Use the same font */
+    display: flex; /* Use flexbox to align items in a row */
+    align-items: center; /* Center items vertically */
 }
 
-a {
+.my-work {
+    color: #197ABD; /* Color for "My Work" */
     text-decoration: none; /* Optional: remove underline */
 }
 
-a:first-of-type {
-    color: #197ABD; /* Color for "My Work" */
+.separator {
+    color: black; /* Color for the separator */
+    margin: 0 5px; /* Adjust space around the separator */
 }
 
-a:last-of-type {
+.inspiration {
     color: #E0242B; /* Color for "Inspiration" */
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.container {
+    text-align: center; /* Center the paragraph text */
+    font-size: 50px; /* Set font size for the paragraph */
 }
