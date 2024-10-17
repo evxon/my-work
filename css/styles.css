@@ -15,25 +15,25 @@ body {
 
 .header {
     position: absolute; /* Position it relative to the body */
-    top: 20px; /* Adjust distance from the top */
-    right: 20px; /* Adjust distance from the right */
-    display: flex; /* Use flexbox to align items */
-    gap: 10px; /* Add space between items */
+    top: 9px; /* Adjust distance from the top */
+    right: 13px; /* Adjust distance from the right */
+    font-family: 'Noto Sans KR', sans-serif; /* Use the same font */
 }
 
 .my-work {
-    color: #197ABD; /* Color for "My Work" */
-    font-size: 12px; /* Set font size for "My Work" */
-    text-decoration: none; /* Optional: remove underline */
+    color: #197ABD; /* My Work color */
+    font-size: 15px; /* Font size for My Work */
+    text-decoration: none; /* Remove underline */
+}
+
+.dash {
+    color: black; /* Dash color */
+    font-size: 15px; /* Font size for dash */
 }
 
 .inspiration {
-    color: #E0242B; /* Color for "Inspirations" */
-    font-size: 12px; /* Set font size for "Inspirations" */
-    text-decoration: none; /* Optional: remove underline */
+    color: #E0242B; /* Inspiration color */
+    font-size: 15px; /* Font size for Inspiration */
+    text-decoration: none; /* Remove underline */
 }
 
-a:hover {
-    color: #070707; /* Color for "hover" */
-    opacity: 0.8; 
-}
