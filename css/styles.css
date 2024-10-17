@@ -17,9 +17,13 @@ body {
     align-items: center; /* Center items vertically */
 }
 
+.my-work,
+.inspiration {
+    text-decoration: none; /* Remove underline */
+}
+
 .my-work {
     color: #197ABD; /* Color for "My Work" */
-    text-decoration: none; /* Optional: remove underline */
 }
 
 .separator {
@@ -28,7 +32,6 @@ body {
 
 .inspiration {
     color: #E0242B; /* Color for "Inspiration" */
-    text-decoration: none; /* Optional: remove underline */
 }
 
 .container {
