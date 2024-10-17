@@ -17,25 +17,22 @@ body {
     position: absolute; /* Position it relative to the body */
     top: 20px; /* Adjust distance from the top */
     right: 20px; /* Adjust distance from the right */
-    font-size: 20px; /* Set font size for "My Work" */
-    font-family: 'Noto Sans KR', sans-serif; /* Use the same font */
     display: flex; /* Use flexbox to align items */
     gap: 10px; /* Add space between items */
 }
 
-a {
-    color: #197ABD; /* Color for "My Work" link */
+.my-work {
+    color: #197ABD; /* Color for "My Work" */
+    font-size: 15px; /* Set font size for "My Work" */
     text-decoration: none; /* Optional: remove underline */
-}
-
-a:hover {
-    color: #197ABD; /* Keep the same color on hover */
 }
 
 .inspiration {
     color: #E0242B; /* Color for "Inspirations" */
+    font-size: 15px; /* Set font size for "Inspirations" */
+    text-decoration: none; /* Optional: remove underline */
 }
 
-.inspiration:hover {
-    color: #E0242B;
+a:hover {
+    opacity: 0.8; /* Optional: reduce opacity on hover */
 }
